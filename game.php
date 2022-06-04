@@ -26,9 +26,9 @@ if($guess == NULL){
   exit();
 }else{
 if($guess !=$rand){
-  echo "შენ წააგე ლაშა, სწორი პასუხია " . $rand. "<br/><a href='index.php'> კიდევ სცადე პატარა</a>";
+  echo " You lose, the correct answer is " . $rand. "<br/><a href='index.php'> Try Again </a>";
 } else {
-  echo " ჯანდაბა, შენ როგორც იქნა მოიგე :) <br/><a href='index.php'> კიდევ დავეჭიდოთ ? ;)</a>";
+  echo " You Won :) <br/><a href='index.php'> Try Again ? ;)</a>";
   }
 }
 
